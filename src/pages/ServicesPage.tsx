@@ -22,11 +22,9 @@ export const ServicesPage = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <h2 className="text-3xl md:text-4xl  mb-8">Produkcija</h2>
+              {/* <h2 className="text-3xl md:text-4xl  mb-8">Produkcija</h2> */}
               <p className=" text-lg text-brand-800 mb-8">
-                Naš produkcijski tim oživljava dizajn sa pedantnom pažnjom
-                prema detaljima i vrhunskom izradom. Bavimo se svim aspektima,
-                od izrade nameštaja po meri do kompletnih enterijerskih instalacija.
+              Kroz naše usluge, klijentima nudimo sve, od idejnog rešenja i 3D vizualizacija, pa sve do izrade i montaže nameštaja. Koristimo visoko kvalitetne mehanizme, pločaste materijale u raznim dezenima i  ručice koje odišu stilom kako bismo obezbedili savršen rezultat.
               </p>
               <Link
                 to="/gallery"
@@ -63,11 +61,9 @@ export const ServicesPage = () => {
               transition={{ duration: 0.8 }}
               className="md:order-2"
             >
-              <h2 className="text-3xl md:text-4xl text-brand-950 mb-8">Dizajn</h2>
+              <h2 className="text-3xl md:text-4xl text-brand-950 mb-8">Ručice kao nakit nameštaja</h2>
               <p className=" text-lg text-brand-800 mb-8">
-                Naša dizajnerska filozofija kombinuje estetiku sa funkcionalnošću,
-                stvarajući prostore koji su istovremeno lepi i praktični. Blisko
-                sarađujemo sa klijentima kako bismo razumeli njihovu viziju i stil života.
+              Svaka ideja, svaki zahtev, svaki detalj je za nas važan i trudimo se da ga realizujemo na najbolji mogući način. Ponosimo se brzim rokovima izrade, jer verujemo da je važno da vaš prostor bude gotov na vreme, bez kompromisa u kvalitetu.
               </p>
               <Link
                 to="/gallery"
@@ -105,7 +101,7 @@ export const ServicesPage = () => {
             className="max-w-3xl mx-auto"
           >
             <h2 className="text-3xl md:text-4xl text-brand-950 mb-8">
-              Spremni ste da započnete svoj projekat?
+            Započnite svoj projekat ili besplatnu konsultaciju
             </h2>
             <Link
               to="/contact"

@@ -38,7 +38,7 @@ export const HomePage = () => {
               Stvaramo prostore koji inspirišu
             </h1>
             <p className="text-xl text-white/90 mb-12">
-              Transformišemo prostore u doživljaje
+            Dobrodošli u NEED design
             </p>
           </motion.div>
         </div>
@@ -57,12 +57,10 @@ export const HomePage = () => {
               <h2 className="text-3xl md:text-4xl text-brand-950 mb-8">O nama</h2>
               <div className="space-y-6 text-lg">
                 <p>
-                  NEED Design je kreativni studio posvećen stvaranju izuzetnih
-                  enterijera koji odražavaju jedinstvenu viziju i životni stil naših klijenata.
+                Mi se bavimo proizvodnjom nameštaja od pločastog materijala, dizajnom i opremanjem prostora, sa posebnim naglaskom na kreiranje unikatnih enterijera.
                 </p>
                 <p>
-                  Naš pristup kombinuje minimalističku estetiku sa funkcionalnim dizajnom,
-                  stvarajući harmonične prostore koji inspirišu i traju.
+                Bez obzira na to da li opremate svoj dom, kancelariju ili neki drugi poslovni prostor, mi ćemo vam omogućiti da ostvarite željeni estetski dojam i maksimalnu funkcionalnost.
                 </p>
               </div>
               <Link
@@ -101,9 +99,8 @@ export const HomePage = () => {
             className="max-w-3xl mx-auto"
           >
             <h2 className="text-2xl md:text-3xl mb-6">
-              "Dizajn nije samo kako nešto izgleda i kako se oseća. Dizajn je kako nešto funkcioniše."
+              "Lepota doma počinje savršenim nameštajem."
             </h2>
-            <p className="text-brand-800">— Steve Jobs</p>
           </motion.div>
         </div>
       </section>
