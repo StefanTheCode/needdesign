@@ -21,52 +21,109 @@ export const GalleryPage = () => {
 
   const categories = [
     { id: 'all', name: 'Sve' },
-    { id: 'residential', name: 'Stambeni Objekti' },
-    { id: 'commercial', name: 'Poslovni Prostori' },
-    { id: 'hospitality', name: 'Ugostiteljski Objekti' }
+    { id: 'kitchen', name: 'Kuhinje' },
+    { id: 'commercial', name: 'Poslovni prostor' },
+    { id: 'drawers', name: 'Komode i vitrine' },
+    { id: 'wardrobes', name: 'Garderoberi' }
   ];
 
   const projects: Project[] = [
     {
-      category: 'residential',
-      title: 'Moderan Stan na Vračaru',
+      category: 'kitchen',
+      title: 'Kuhinje',
       images: [
-        'https://images.unsplash.com/photo-1600210491892-03d54c0aaf87',
-        'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d',
-        'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace'
-      ],
+        '/images/kuhinje/slika1.JPG',
+        '/images/kuhinje/slika2.JPG',
+        '/images/kuhinje/slika3.JPG',
+        '/images/kuhinje/slika4.JPG',
+        '/images/kuhinje/slika5.JPG',
+        '/images/kuhinje/slika6.JPG',
+        '/images/kuhinje/slika7.JPG',
+        '/images/kuhinje/slika8.jpg',
+        '/images/kuhinje/slika9.jpg',
+        '/images/kuhinje/slika10.jpg',
+        '/images/kuhinje/slika11.JPG',
+        '/images/kuhinje/slika12.JPG',
+        '/images/kuhinje/slika13.JPG',
+        '/images/kuhinje/slika14.JPG',
+        '/images/kuhinje/slika15.JPG'
+            ],
       descriptions: [
-        'Prostrani dnevni boravak sa prirodnim osvetljenjem i minimalističkim detaljima',
-        'Moderna kuhinja sa ostrvom i trpezarijom',
-        'Glavna spavaća soba sa garderoberom'
       ]
     },
     {
       category: 'commercial',
-      title: 'IT Kompanija u Beogradu',
+      title: 'Poslovni prostor',
       images: [
-        'https://images.unsplash.com/photo-1497366754035-f200968a6e72',
-        'https://images.unsplash.com/photo-1497366811353-6870744d04b2',
-        'https://images.unsplash.com/photo-1497366216548-37526070297c'
+    '/images/poslovni prostor/slika1.JPG',
+        '/images/poslovni prostor/slika2.JPG',
+        '/images/poslovni prostor/slika3.JPG',
+        '/images/poslovni prostor/slika4.JPG',
+        '/images/poslovni prostor/slika5.JPG'
       ],
       descriptions: [
-        'Otvoreni radni prostor sa ergonomskim nameštajem',
-        'Sala za sastanke sa najnovijom tehnologijom',
-        'Zona za odmor i druženje zaposlenih'
       ]
     },
     {
-      category: 'hospitality',
-      title: 'Restoran u Centru',
+      category: 'drawers',
+      title: 'Komode i vitrine',
       images: [
-        'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92',
-        'https://images.unsplash.com/photo-1583847268958-d6ce57d12ad4',
-        'https://images.unsplash.com/photo-1583847268991-f31f196b5d8a'
+        '/images/komode i vitrine/slika1.JPG',
+        '/images/komode i vitrine/slika2.jpg',
+        '/images/komode i vitrine/slika3.JPG',
+        '/images/komode i vitrine/slika4.jpg',
+        '/images/komode i vitrine/slika5.jpg',
+        '/images/komode i vitrine/slika6.JPG',
+        '/images/komode i vitrine/slika7.JPG',
+        '/images/komode i vitrine/slika8.jpg',
+        '/images/komode i vitrine/slika9.JPG',
+        '/images/komode i vitrine/slika10.JPG',
+        '/images/komode i vitrine/slika11.JPG',
+        '/images/komode i vitrine/slika12.JPG',
+        '/images/komode i vitrine/slika13.JPG',
+        '/images/komode i vitrine/slika14.JPG',
+        '/images/komode i vitrine/slika15.JPG',
+        '/images/komode i vitrine/slika16.JPG',
+        '/images/komode i vitrine/slika17.jpg',
+        '/images/komode i vitrine/slika18.jpg',
+        '/images/komode i vitrine/slika19.jpg',
+        '/images/komode i vitrine/slika20.JPG',
+        '/images/komode i vitrine/slika21.JPG',
+        '/images/komode i vitrine/slika22.jpg',
+        '/images/komode i vitrine/slika23.JPG',
       ],
       descriptions: [
-        'Elegantni enterijer sa prirodnim materijalima',
-        'Bar zona sa ambijentalnim osvetljenjem',
-        'VIP separe sa custom nameštajem'
+      ]
+    },
+    {
+      category: 'wardrobes',
+      title: 'Garderoberi',
+      images: [
+        '/images/garderoberi/slika1.jpg',
+        '/images/garderoberi/slika2.jpg',
+        '/images/garderoberi/slika3.JPG',
+        '/images/garderoberi/slika4.jpg',
+        '/images/garderoberi/slika5.JPG',
+        '/images/garderoberi/slika6.JPG',
+        '/images/garderoberi/slika7.JPG',
+        '/images/garderoberi/slika8.JPG',
+        '/images/garderoberi/slika9.jpg',
+        '/images/garderoberi/slika10.jpg',
+        '/images/garderoberi/slika11.jpg',
+        '/images/garderoberi/slika12.jpg',
+        '/images/garderoberi/slika13.JPG',
+        '/images/garderoberi/slika14.JPG',
+        '/images/garderoberi/slika15.JPG',
+        '/images/garderoberi/slika16.JPG',
+        '/images/garderoberi/slika17.JPG',
+        '/images/garderoberi/slika18.JPG',
+        '/images/garderoberi/slika19.JPG',
+        '/images/garderoberi/slika20.JPG',
+        '/images/garderoberi/slika21.JPG',
+        '/images/garderoberi/slika22.JPG',
+        '/images/garderoberi/slika23.JPG'
+      ],
+      descriptions: [
       ]
     }
   ];

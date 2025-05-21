@@ -5,7 +5,7 @@ import { AnimatedSection } from './AnimatedSection';
 export const Services = () => {
   const services = [
     {
-      title: 'Residential Design',
+      title: 'kitchen Design',
       description: 'Creating harmonious living spaces'
     },
     {

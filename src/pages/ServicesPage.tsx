@@ -41,7 +41,7 @@ export const ServicesPage = () => {
               transition={{ duration: 0.8 }}
             >
               <img
-                src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                src=".\images\services1.JPG"
                 alt="Proces produkcije"
                 className="w-full rounded-lg shadow-xl"
               />
@@ -61,7 +61,7 @@ export const ServicesPage = () => {
               transition={{ duration: 0.8 }}
               className="md:order-2"
             >
-              <h2 className="text-3xl md:text-4xl text-brand-950 mb-8">Ručice kao nakit nameštaja</h2>
+              <h2 className="text-3xl md:text-4xl text-brand-950 mb-8">"Ručice kao nakit nameštaja"</h2>
               <p className=" text-lg text-brand-800 mb-8">
               Svaka ideja, svaki zahtev, svaki detalj je za nas važan i trudimo se da ga realizujemo na najbolji mogući način. Ponosimo se brzim rokovima izrade, jer verujemo da je važno da vaš prostor bude gotov na vreme, bez kompromisa u kvalitetu.
               </p>
@@ -81,7 +81,7 @@ export const ServicesPage = () => {
               className="md:order-1"
             >
               <img
-                src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                src="\images\services2.JPG"
                 alt="Proces dizajna"
                 className="w-full rounded-lg shadow-xl"
               />

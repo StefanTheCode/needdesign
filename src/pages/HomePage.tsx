@@ -21,7 +21,7 @@ export const HomePage = () => {
         >
           <div className="absolute inset-0 bg-brand-950/30" />
           <img
-            src="https://images.unsplash.com/photo-1600210492493-0946911123ea?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
+            src="\images\home.jpeg"
             alt="Moderan enterijer"
             className="w-full h-full object-cover"
           />
@@ -79,7 +79,7 @@ export const HomePage = () => {
               transition={{ duration: 0.8 }}
             >
                <img
-                src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                src="\images\about.png"
                 alt="Proces produkcije"
                 className="w-full rounded-lg shadow-xl"
               />
