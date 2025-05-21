@@ -59,7 +59,7 @@ export const Contact = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="mt-16 text-center"
           >
-            <p className="font-poiret text-lg text-brand-800 mb-2">info@needdesign.com</p>
+            <p className="font-poiret text-lg text-brand-800 mb-2">info@need.design.rs</p>
             <p className="font-poiret text-lg text-brand-800">+1 (555) 123-4567</p>
           </motion.div>
         </AnimatedSection>

@@ -38,7 +38,7 @@ export const ContactPage = () => {
               className="h-[400px] md:h-[500px] rounded-lg overflow-hidden shadow-xl"
             >
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.9359670779244!2d20.47742661577768!3d44.80697787909862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7a9609031735%3A0x49a5366ae0a24f65!2z0JHRg9C70LXQstCw0YAg0LrRgNCw0ZnQsCDQkNC70LXQutGB0LDQvdC00YDQsCwg0JHQtdC-0LPRgNCw0LQ!5e0!3m2!1ssr!2srs!4v1647856723456!5m2!1ssr!2srs"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2832.17701735631!2d20.482960075720385!3d44.777196379014505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a70f5b9048b8d%3A0xf35d9178cc57534e!2z0J3QsNC00LUg0J3QsNGD0LzQvtCy0LjRmyA5LCDQkdC10L7Qs9GA0LDQtCAxMTAxMA!5e0!3m2!1ssr!2srs!4v1747833019974!5m2!1ssr!2srs"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -65,7 +65,7 @@ export const ContactPage = () => {
                 <div>
                   <h3 className="text-xl text-brand-950 mb-2 group-hover:text-brand-800 transition-colors">Email</h3>
                   <p className="font-poiret text-lg text-brand-800 group-hover:text-brand-600 transition-colors">
-                    info@needdesign.com
+                    info@needdesign.rs
                   </p>
                 </div>
               </motion.button>
@@ -76,7 +76,7 @@ export const ContactPage = () => {
                 <div>
                   <h3 className="text-xl text-brand-950 mb-2">Telefon</h3>
                   <p className="font-poiret text-lg text-brand-800">
-                    +381 11 123 4567
+                    +381 65 874 2121
                   </p>
                 </div>
               </div>
@@ -86,8 +86,7 @@ export const ContactPage = () => {
                 <div>
                   <h3 className="text-xl text-brand-950 mb-2">Adresa</h3>
                   <p className="font-poiret text-lg text-brand-800">
-                    Bulevar Kralja Aleksandra 123<br />
-                    11000 Beograd
+                    Nade Naumović 9, 11000 Beograd<br />
                   </p>
                 </div>
               </div>
