@@ -241,14 +241,14 @@ export const GalleryPage = () => {
               >
                 {selectedProject.images.map((image, index) => (
                   <SwiperSlide key={index}>
-                    <div className="aspect-[16/9]">
-                     <img
-  src={`${image}?auto=format&fit=crop&w=1600&q=80`}
-  alt={selectedProject.descriptions[index]}
-  className="w-full h-full object-contain bg-black"
-/>
+                    <div className="h-[60vh] sm:h-[70vh] md:h-[80vh]">
+  <img
+    src={`${image}?auto=format&fit=crop&w=1600&q=80`}
+    alt={selectedProject.descriptions[index]}
+    className="w-full h-full object-contain bg-black"
+  />
+</div>
 
-                    </div>
                     <div className="text-center py-4">
                       <p className=" text-white text-lg">
                         {selectedProject.descriptions[index]}
