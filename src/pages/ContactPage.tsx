@@ -25,7 +25,7 @@ export const ContactPage = () => {
           >
             <h1 className="text-4xl md:text-5xl text-brand-950 mb-8">Kontaktirajte Nas</h1>
             <p className="font-poiret text-xl text-brand-800">
-              Razgovarajmo o vašem projektu
+              <b>Razgovarajmo o vašem projektu</b>
             </p>
             
           </motion.div>
@@ -65,7 +65,7 @@ export const ContactPage = () => {
                 <div>
                   <h3 className="text-xl text-brand-950 mb-2 group-hover:text-brand-800 transition-colors">Email</h3>
                   <p className="font-poiret text-lg text-brand-800 group-hover:text-brand-600 transition-colors">
-                    info@needdesign.rs
+                   <b>info@needdesign.rs</b>
                   </p>
                 </div>
               </motion.button>
@@ -76,7 +76,7 @@ export const ContactPage = () => {
                 <div>
                   <h3 className="text-xl text-brand-950 mb-2">Telefon</h3>
                   <p className="font-poiret text-lg text-brand-800">
-                    +381 65 874 2121
+                    <b>+381 65 874 2121</b>
                   </p>
                 </div>
               </div>
@@ -86,7 +86,7 @@ export const ContactPage = () => {
                 <div>
                   <h3 className="text-xl text-brand-950 mb-2">Adresa</h3>
                   <p className="font-poiret text-lg text-brand-800">
-                    Nade Naumović 9, 11000 Beograd<br />
+                    <b>Nade Naumović 9, 11010 Beograd</b><br />
                   </p>
                 </div>
               </div>
