@@ -7,13 +7,18 @@
     @apply bg-neutral-50;
   }
 
+  html, body {
+  overflow-x: hidden;
+}
+
+
   h1, h2, h3, h4, h5, h6, a {
     font-family: 'Georgia', serif !important;
   }
 
   @media only screen and (max-width: 769px) {
   .font-poiret {
-    font-family: 'Georgia', serif !important;
+    font-family: 'Poiret One', cursive !important;
   }
 }
 
