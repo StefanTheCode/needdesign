@@ -7,8 +7,8 @@ export const Footer = () => {
         <div className="text-center">
           <img src="/logo.png" alt="NEED Design" className="h-16 mx-auto mb-8" />
           <div className="space-y-2 mb-8">
-            <p>Nade Naumović 9</p>
-            <p>11010 Beograd</p>
+            <p>Nikole Tesle 18</p>
+            <p>17530 Surdulica</p>
           </div>
           <p className="text-sm">
             © {new Date().getFullYear()} NEED Design. Sva prava zadržana.

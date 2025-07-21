@@ -65,7 +65,7 @@ export const ContactPage = () => {
                 <div>
                   <h3 className="text-xl text-brand-950 mb-2 group-hover:text-brand-800 transition-colors">Email</h3>
                   <p className="font-poiret text-lg text-brand-800 group-hover:text-brand-600 transition-colors">
-                   <b>info@needdesign.rs</b>
+                   <b>need.designbgd@gmail.com</b>
                   </p>
                 </div>
               </motion.button>
@@ -86,7 +86,7 @@ export const ContactPage = () => {
                 <div>
                   <h3 className="text-xl text-brand-950 mb-2">Adresa</h3>
                   <p className="font-poiret text-lg text-brand-800">
-                    <b>Nade Naumović 9, 11010 Beograd</b><br />
+                    <b>Nikole Tesle 18, 17530, Surdulica</b><br />
                   </p>
                 </div>
               </div>
